@@ -88,7 +88,7 @@ export const Navbar = () => {
                     <div className="px-3 py-2 bg-secondaryColor rounded-full">
                         <a className="flex items-center gap-2 font-medium uppercase bg-gradient-to-tl from-mainColor via-emerald-700 to-mainColor bg-clip-text text-transparent truncate">
                             <PiLeaf className="text-mainColor" />
-                            PT Kedutaan Alam Indonesia
+                            PT Kedaulatan Alam Indonesia
                         </a>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ export const Navbar = () => {
                 <div className="navbar-start hidden md:block">
                     <a className="text-xl font-medium flex items-center gap-2">
                         <PiLeaf />
-                        PT Kedutaan Alam Indonesia
+                        PT Kedaulatan Alam Indonesia
                     </a>
                 </div>
                 <div className={`${isScrolled ? "bg-secondaryColor rounded-full bg-opacity-50 backdrop-blur-lg" : ""} navbar-center hidden lg:flex duration-300 ease-in-out px-1 py-2`}>

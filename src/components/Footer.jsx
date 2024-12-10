@@ -12,7 +12,7 @@ export const Footer = () => {
                                 <div className="flex items-center gap-2">
                                     <PiLeaf className="text-4xl" />
                                     <h1 className="text-2xl font-medium">
-                                        PT Kedutaan Alam Indonesia
+                                        PT Kedaulatan Alam Indonesia
                                     </h1>
                                 </div>
                                 <h2>
