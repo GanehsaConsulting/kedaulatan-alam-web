@@ -22,7 +22,7 @@ export const AboutUs = () => {
                             </div>
                         </div>
                         <div className="md:w-[50%]">
-                            <img className="rounded-3xl" src="https://images.unsplash.com/photo-1607554338726-f8881a9a7f9e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                            <img className="rounded-3xl bg-secondaryColor" src="https://images.unsplash.com/photo-1607554338726-f8881a9a7f9e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                         </div>
                     </div>
                 </div>

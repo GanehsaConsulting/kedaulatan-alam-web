@@ -7,7 +7,7 @@ export const VM = () => {
             <section id="vision-&-mission" className="space-y-32 md:mb-0 mb-[100lvw]">
                 <div className="h-screen w-full overflow-hidden relative">
                     <img
-                        className="h-full w-full object-cover"
+                        className="h-full w-full object-cover bg-secondaryColor"
                         src="https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     <div className="absolute md:inset-10 inset-0 w-full h-full">
                         <div className="flex flex-col md:justify-center justify-end h-full mx-5 py-10 md:mx-0">
@@ -25,7 +25,7 @@ export const VM = () => {
                         <img
                             src="https://images.unsplash.com/photo-1511117833895-4b473c0b85d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
-                            className=" h-full rounded-3xl w-full object-cover"
+                            className=" h-full rounded-3xl w-full object-cover bg-secondaryColor"
                         />
                         <div className="absolute bottom-5 left-5">
                             <div className="bg-mainColor bg-opacity-100 backdrop-blur-sm px-4 py-2 rounded-3xl">
@@ -60,7 +60,7 @@ export const VM = () => {
                         <img
                             src="https://images.unsplash.com/photo-1511117833895-4b473c0b85d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
-                            className=" h-full rounded-3xl w-full object-cover"
+                            className=" h-full rounded-3xl w-full object-cover bg-secondaryColor"
                         />
                         <div className="absolute top-5 left-5">
                             <div className="bg-mainColor bg-opacity-100 backdrop-blur-sm px-4 py-2 rounded-3xl">

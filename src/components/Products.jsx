@@ -53,7 +53,7 @@ export const Products = () => {
                         {ProductsService.map((el, idx) => (
                             <div key={idx} className={`${idx === 0 && "md:ml-0 ml-5"} ${idx === ProductsService.length - 1 && "md:mr-0 mr-5"} carousel-item w-[90lvw] duration-300 ease-in-out md:w-full min-h-[80lvh] md:min-h-0 md:h-[70lvh] rounded-3xl relative group overflow-hidden`}>
                                 <img
-                                    className="w-full h-full object-cover rounded-3xl"
+                                    className="w-full h-full object-cover bg-secondaryColor rounded-3xl"
                                     src={el.img}
                                     alt={el.name}
                                 />

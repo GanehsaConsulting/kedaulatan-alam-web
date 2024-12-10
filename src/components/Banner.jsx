@@ -49,7 +49,7 @@ export const Banner = () => {
                             {/* Gambar Utama */}
                             <img
                                 src="https://images.unsplash.com/photo-1599565097530-8ffc32c541b6?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-1/2 w-full rounded-3xl object-cover backgroundImage"
+                                className="h-1/2 w-full rounded-3xl object-cover bg-secondaryColor"
                                 alt="Image 1"
                             />
 
@@ -57,12 +57,12 @@ export const Banner = () => {
                             <div className="grid grid-cols-2 gap-5 h-1/2">
                                 <img
                                     src="https://images.unsplash.com/photo-1492737096399-cf0c3eae286f?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                    className="h-full w-full rounded-3xl object-cover backgroundImage"
+                                    className="h-full w-full rounded-3xl object-cover bg-secondaryColor"
                                     alt="Image 2"
                                 />
                                 <img
                                     src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                    className="h-full w-full rounded-3xl object-cover backgroundImage"
+                                    className="h-full w-full rounded-3xl object-cover bg-secondaryColor"
                                     alt="Image 3"
                                 />
                             </div>
