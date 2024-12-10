@@ -202,9 +202,9 @@ export const dataWhyUs = [
 export const dataContact = {
     address: {
         label: "Operational Office",
-        data: "Jl. Raya Masjid Al Hidayah No.5, RT.6/RW.7, Pejaten Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12510",
-        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126905.92489499568!2d106.7575353514891!3d-6.288666897638287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3007a6e8e39%3A0xf83b477d03a6931f!2sGANESHA%20CONSULTING%20-%20OPERATIONAL!5e0!3m2!1sid!2sid!4v1723453298072!5m2!1sid!2sid",
-        link: "https://maps.app.goo.gl/jvz8ScJZtUmAnT7SA"
+        data: "Desa Maju Makmur RT.006, Kel. Maju Makmur, kecamatan Penarik, Kabupaten Muko Muko, Bengkulu, 38768.",
+        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16108.42151776647!2d101.35964296456277!3d-2.63838089766279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e32622f08d0bcbf%3A0x10676dd847186c9f!2sMaju%20Makmur%2C%20Kec.%20Penarik%2C%20Kabupaten%20Mukomuko%2C%20Bengkulu!5e1!3m2!1sid!2sid!4v1733823527571!5m2!1sid!2sid",
+        link: "https://maps.app.goo.gl/9tBDWPZk9F3eztHv9"
     },
     media: [
         {
