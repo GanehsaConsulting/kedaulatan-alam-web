@@ -124,7 +124,7 @@ export const Navbar = () => {
             </div>
 
             {/* Navbar Mobile */}
-            <nav className={`md:hidden block bg-white bg-opacity-50 backdrop-blur-md rounded-full px-3 py-2 fixed bottom-3 left-3 right-3 z-[150] duration-500 ease-in-out transition-all origin-bottom-right
+            <nav className={`shadow-mainShadow md:hidden block bg-white bg-opacity-50 backdrop-blur-md rounded-full px-3 py-2 fixed bottom-3 left-3 right-3 z-[150] duration-500 ease-in-out transition-all origin-bottom-right
                             ${visible ? 'transform translate-y-0' : 'translate-y-[120%]'}
                             ${isMinimized ? 'transform translate-x-[105%] scale-0' : 'scale-100'}
                             `}>
