@@ -82,7 +82,7 @@ export const Navbar = () => {
     };
     return (
         <>
-            <div className="fixed z-[999] navbar md:bg-white bg-opacity-70 backdrop-blur-md">
+            <div className="fixed z-[999] navbar bg-white bg-opacity-70 backdrop-blur-md">
                 {/* Mobile */}
                 <div className="md:hidden navbar-center w-full flex flex-col gap-2 items-center justify-center ">
                     <div className="px-3 py-2 bg-secondaryColor rounded-full">

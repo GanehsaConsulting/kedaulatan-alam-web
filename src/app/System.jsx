@@ -76,7 +76,7 @@ export const ProductsService = [
     },
     {
         name: "Produk Perkebunan",
-        img: "https://plus.unsplash.com/premium_photo-1697729435258-b7d20023c843?q=80&w=3087&auto=format&fit=crop",
+        img: "https://palmdoneright.com/wp-content/uploads/2022/10/A-Complete-Guide-for-Palm-Oil-Plantation-1200x675.jpg",
         desc: "Hasil perkebunan segar dari kelapa sawit hingga buah berkualitas.",
         items: [
             {
@@ -144,7 +144,7 @@ export const ProductsService = [
     },
     {
         name: "Perdagangan Ritel Produk",
-        img: "https://images.unsplash.com/photo-1534723570441-4c448d1010e5?q=80&w=2940&auto=format&fit=crop",
+        img: "https://images.unsplash.com/photo-1666614581537-02cc7716d10b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         desc: "Perdagangan ritel produk pertanian dan peternakan berkualitas tinggi.",
         items: [
             {

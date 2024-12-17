@@ -15,9 +15,9 @@ export const Footer = () => {
                                         PT Kedaulatan Alam Indonesia
                                     </h1>
                                 </div>
-                                <h2>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, esse et minima sequi autem hic cumque porro quasi neque fuga saepe eius! Consectetur cum aliquam expedita quidem tenetur hic quo.
-                                </h2>
+                                <a href={dataContact.address.link} className="link link-hover">
+                                    {dataContact.address.data}
+                                </a>
 
                             </div>
                             <div className="mt-5 md:mt-0">
