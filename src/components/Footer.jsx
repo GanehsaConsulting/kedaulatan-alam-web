@@ -1,4 +1,4 @@
-import { dataContact, NavbarLinks } from "@/app/System"
+import { dataContact, NavbarLinks, urlFriendly } from "@/app/System"
 import { PiLeaf } from "react-icons/pi"
 
 export const Footer = () => {
@@ -32,7 +32,7 @@ export const Footer = () => {
                                     Navigation
                                 </p>
                                 {NavbarLinks.map((el, idx) => (
-                                    <a href="" key={idx} className="link-hover link flex items-center gap-2 pr-2 pl-1 py-1 bg-gradient-to-r from-secondaryColor to-transparent text-mainColor rounded-full">
+                                    <a href={"#" + urlFriendly(el.Name)} key={idx} className="link-hover link flex items-center gap-2 pr-2 pl-1 py-1 bg-gradient-to-r from-secondaryColor to-transparent text-mainColor rounded-full">
                                         <span className="p-1 bg-white text-mainColor rounded-full">
                                             {el.icon}
                                         </span>
