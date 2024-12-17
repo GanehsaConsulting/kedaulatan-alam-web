@@ -210,27 +210,26 @@ export const dataContact = {
         {
             label: "Instagram",
             icon: <RiInstagramLine />,
-            data: "@ganeshamultikreatif",
-            link: "https://www.instagram.com/ganeshamultikreatif?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            data: "",
+            link: ""
         },
         {
             label: "Facebook",
             icon: <RiFacebookBoxLine />,
-            class: "bg-gradient-to-b to-transparent from-[#EA5554] !text-white",
-            data: "Ganesha Consulting",
-            link: "https://www.facebook.com/profile.php?id=61555739807086"
+            data: "",
+            link: ""
         },
         {
             label: "LinkedIn",
             icon: <RiLinkedinBoxLine />,
-            data: "Ganesha Multi Kreatif",
-            link: "https://www.linkedin.com/company/ganesha-multi-kreatif/"
+            data: "LinkedIn",
+            link: ""
         },
         {
             label: "WhatsApp",
             icon: <RiWhatsappLine />,
-            data: "+62 888 712 7000",
-            link: "https://api.whatsapp.com/send?phone=628887127000&text=Halo%20Ganesha%20Consulting"
+            data: "+622273739930",
+            link: "https://api.whatsapp.com/send?phone=082273739930"
         }
     ],
     sosmed: [

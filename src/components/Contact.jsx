@@ -18,7 +18,7 @@ export const Contact = () => {
                                 {dataContact.media.map((el, idx) => (
                                     <a
                                         key={idx}
-                                        href=""
+                                        href={el.link}
                                         className="pr-3 pl-2 py-2 bg-secondaryColor rounded-3xl"
                                     >
                                         <div className="text-lg font-medium text-mainColor flex items-center gap-2">

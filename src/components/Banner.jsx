@@ -2,6 +2,7 @@ import { PiLeafFill } from "react-icons/pi";
 import { TiLeaf } from "react-icons/ti";
 import { CiCircleAlert } from "react-icons/ci";
 import { BsArrowRightCircleFill } from "react-icons/bs";
+import { dataContact } from "@/app/System";
 
 export const Banner = () => {
     return (
@@ -35,7 +36,7 @@ export const Banner = () => {
                                     <BsArrowRightCircleFill className="text-2xl"/>
                                 </button>
                             </a>
-                            <a href="">
+                            <a href={dataContact.media[3].link}>
                                 <button className="px-4 py-2 flex text-sm duration-300 ease-in-out hover:scale-90 tracking-wide gap-2 items-center border border-mainColor text-mainColor font-semibold rounded-full">
                                     Hubungi Kami
                                 </button>
