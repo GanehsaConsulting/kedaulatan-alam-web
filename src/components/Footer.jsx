@@ -58,7 +58,7 @@ export const Footer = () => {
             </footer>
             <footer className="mx-3 py-1 mb-2">
                 <div className="flex items-center justify-center p-2 bg-white drop-shadow-[0px_0px_15px_#E6EFE3] rounded-full">
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                    <p className="text-center">Copyright © {new Date().getFullYear()} - All right reserved by PT Kedaulatan Alam Indonesia</p>
                 </div>
             </footer>
         </>
