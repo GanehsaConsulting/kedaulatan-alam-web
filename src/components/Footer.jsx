@@ -1,4 +1,5 @@
 import { dataContact, NavbarLinks, urlFriendly } from "@/app/System"
+import Image from "next/image"
 import { PiLeaf } from "react-icons/pi"
 
 export const Footer = () => {
@@ -9,9 +10,16 @@ export const Footer = () => {
                     <div className="flex md:flex-row h-full gap-10 flex-col">
                         <div className="md:w-[45%] flex flex-col justify-between">
                             <div className="space-y-5">
-                                <div className="flex items-center gap-2">
-                                    <PiLeaf className="text-4xl" />
-                                    <h1 className="text-2xl font-medium">
+                                <div className="flex md:flex-row flex-col md:items-center gap-2">
+                                    <div className="flex items-center gap-2">
+                                        <Image
+                                            src='/logo.png'
+                                            className="w-[60px] h-[60px] object-cover"
+                                            width={40}
+                                            height={40}
+                                            alt="Kalanesia" />
+                                    </div>
+                                    <h1 className="text-xl md:text-2xl font-medium">
                                         PT Kedaulatan Alam Indonesia
                                     </h1>
                                 </div>

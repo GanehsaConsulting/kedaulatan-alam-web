@@ -1,5 +1,6 @@
 'use client'
 import { NavbarLinks, urlFriendly } from "@/app/System"
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { PiLeaf } from "react-icons/pi";
 
@@ -82,22 +83,35 @@ export const Navbar = () => {
     };
     return (
         <>
-            <div className="fixed z-[999] navbar bg-white bg-opacity-70 backdrop-blur-md">
+            <div className="fixed z-[999] navbar md:bg-white md:bg-opacity-70 md:backdrop-blur-md">
                 {/* Mobile */}
-                <div className="md:hidden navbar-center w-full flex flex-col gap-2 items-center justify-center ">
-                    <div className="px-3 py-2 bg-secondaryColor rounded-full">
+                <div className="md:hidden navbar-center w-full flex flex-col gap-2 items-start ml-3 justify-center">
+                    <div className="pl-1 pr-3 py-1 bg-secondaryColor bg-opacity-80 backdrop-blur-md rounded-full drop-shadow-[3px_3px_8px_#04785740]">
                         <a className="flex items-center gap-2 font-medium uppercase bg-gradient-to-tl from-mainColor via-emerald-700 to-mainColor bg-clip-text text-transparent truncate">
-                            <PiLeaf className="text-mainColor" />
-                            PT Kedaulatan Alam Indonesia
+                            <Image
+                                src='/logo.png'
+                                className="p-[2px] bg-white rounded-full"
+                                width={25}
+                                height={25}
+                                alt="Kalanesia" />
+                            <span>
+                                Kalanesia
+                            </span>
                         </a>
                     </div>
                 </div>
 
                 {/* Desktop */}
-                <div className="navbar-start hidden md:block">
+                <div className="navbar-start hidden md:block ml-3">
                     <a className="text-xl font-medium flex items-center gap-2">
-                        <PiLeaf />
-                        PT Kedaulatan Alam Indonesia
+                        <Image
+                            src='/logo.png'
+                            width={40}
+                            height={40}
+                            alt="Kalanesia" />
+                        <span className="bg-gradient-to-tl from-mainColor via-emerald-700 to-mainColor bg-clip-text text-transparent">
+                            Kalanesia
+                        </span>
                     </a>
                 </div>
                 <div className={`${isScrolled ? "bg-secondaryColor rounded-full bg-opacity-50 backdrop-blur-lg" : ""} navbar-center hidden lg:flex duration-300 ease-in-out px-1 py-2`}>
@@ -114,7 +128,7 @@ export const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end md:mr-3">
                     <a className="hidden md:block" href="#contact">
                         <button className="px-4 py-1 bg-secondaryColor rounded-full font-semibold">
                             Contacts
